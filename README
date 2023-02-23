@@ -1,0 +1,17 @@
+---
+title: 爬虫使用指南 
+---
+
+欢迎使用论文爬虫，本爬虫支持根据作者名字以及项目编号在googlescholar，知网，dimensions等网站筛选相关论文。
+
+Feature:
+1. 支持中文人名模糊匹配
+2. 可以获取论文链接，及论文作者的历年pub数量，引用数量
+
+How to use:
+1. 根据想要使用的网站名字点进同名文件夹
+2. 找到 /data
+3. 将需要搜索的人名以及项目编号以和示例文件一样的CSV文件形式加到/data中
+4. run webcrapperForGoogleScholar.py 或dimensionsScraper2.py
+5. 终端中将可以查看爬虫进度
+6. 结束后，会出现result 文件夹，结果将以CSV文件的形式保存在里面，具体形式参见result文件的表头。
